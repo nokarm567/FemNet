@@ -2,7 +2,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.nokarm.femnet">
+    package="de.baumann.browser">
 
     <!-- Permission -->
 
@@ -41,7 +41,7 @@
 
         <!-- BrowserActivity -->
         <activity
-            android:name="com.nokarm.femnet.activity.BrowserActivity"
+            android:name="de.baumann.browser.activity.BrowserActivity"
             android:configChanges="orientation|uiMode|screenSize|smallestScreenSize|screenLayout"
             android:exported="true"
             android:grantUriPermissions="true"
@@ -102,47 +102,47 @@
 
         <!-- Settings -->
         <activity
-            android:name="com.nokarm.femnet.activity.Settings_Activity"
+            android:name="de.baumann.browser.activity.Settings_Activity"
             android:label="@string/setting_label"
             android:theme="@style/AppTheme" />
 
         <activity
-            android:name="com.nokarm.femnet.activity.ProfilesList"
+            android:name="de.baumann.browser.activity.ProfilesList"
             android:label="@string/setting_title_profiles_protectedList"
             android:theme="@style/AppTheme" />
 
         <activity
-            android:name="com.nokarm.femnet.activity.Settings_Delete"
+            android:name="de.baumann.browser.activity.Settings_Delete"
             android:label="@string/menu_delete"
             android:theme="@style/AppTheme" />
 
         <activity
-            android:name="com.nokarm.femnet.activity.Settings_PrivacyActivity"
+            android:name="de.baumann.browser.activity.Settings_PrivacyActivity"
             android:label="@string/setting_title_profiles_privacy"
             android:theme="@style/AppTheme" />
 
         <activity
-            android:name="com.nokarm.femnet.activity.Settings_Backup"
+            android:name="de.baumann.browser.activity.Settings_Backup"
             android:label="@string/setting_title_data"
             android:theme="@style/AppTheme" />
 
         <activity
-            android:name="com.nokarm.femnet.activity.Settings_UI"
+            android:name="de.baumann.browser.activity.Settings_UI"
             android:label="@string/setting_title_ui"
             android:theme="@style/AppTheme" />
 
         <activity
-            android:name="com.nokarm.femnet.activity.Settings_Gesture"
+            android:name="de.baumann.browser.activity.Settings_Gesture"
             android:label="@string/setting_gestures"
             android:theme="@style/AppTheme" />
 
         <activity
-            android:name="com.nokarm.femnet.activity.Settings_Filter"
+            android:name="de.baumann.browser.activity.Settings_Filter"
             android:label="@string/setting_filter"
             android:theme="@style/AppTheme" />
 
         <activity
-            android:name="com.nokarm.femnet.activity.Settings_Profile"
+            android:name="de.baumann.browser.activity.Settings_Profile"
             android:label="@string/setting_title_profiles_edit"
             android:theme="@style/AppTheme" />
 

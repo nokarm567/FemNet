@@ -111,7 +111,7 @@
 - new: restart and reload tabs
 - new: Material You Design #726
 - new: OLED dark theme Feature #742
-- new: FemNet Browser in context menu of marked text #723
+- new: FOSS Browser in context menu of marked text #723
 - new: remember night mode per site #669
 - new: adding "copy link" button to download dialog #733
 - new: remember night mode, when opening new tabs
